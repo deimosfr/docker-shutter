@@ -7,12 +7,6 @@ I've made this image because Shutter is not developped anymore, I'm using Arch L
 
 This image avoid to install a ton of perl and gnome dependancies.
 
-# Build the image
-
-```bash
-docker build -t shutter:latest .
-```
-
 # Run the image
 
 First configure it:
@@ -28,3 +22,12 @@ The simply run it:
 ```bash
 docker start shutter
 ```
+
+# Build the image (optional)
+
+You can build your own image if you wish:
+
+```bash
+docker build -t shutter:latest .
+```
+
